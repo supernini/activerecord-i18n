@@ -1,0 +1,3 @@
+class ActiverecordI18nTranslation < ApplicationRecord
+  validates :key, uniqueness: {scope: [:locale]}
+end

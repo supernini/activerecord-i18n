@@ -1,0 +1,17 @@
+class <%= migration_class_name %> < ActiveRecord::Migration<%= migration_version %>
+  def self.up
+    create_table :activerecord_i18n_translations do |t|
+      t.string :locale
+      t.string :key
+      t.text   :value
+      t.timestamps
+    end
+
+    add_index :activerecord_i18n_translations, :locale
+    add_index :activerecord_i18n_translations, :key
+  end
+
+  def self.down
+    drop_table :activerecord_i18n_translations
+  end
+end
