@@ -7,12 +7,12 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Denis Fabien"]
   spec.email       = 'denis.fabien.ca@gmail.com'
   spec.homepage    = "https://github.com/supernini/activerecord-i18n"
-  spec.summary     = "A gem from translator ! Translation is writing in db not in file"
-  spec.description = "A gem from translator ! Translation is writing in db not in file"
+  spec.summary     = "A gem for translator ! Translation is writing in db not in file, additional to the standard I18n.t"
+  spec.description = "A simple gem to add a translation mechanic to your existing apps "
   spec.license     = "MIT"
 
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+    spec.metadata["allowed_push_host"] = "https://rubygems.org"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
