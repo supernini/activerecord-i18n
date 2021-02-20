@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.authors     = ["Denis Fabien"]
   spec.email       = 'denis.fabien.ca@gmail.com'
   spec.homepage    = "https://github.com/supernini/activerecord-i18n"
-  spec.summary     = ""
+  spec.summary     = "Gem to user i18n in db in place of file. This gem is just simple, no complicated feature"
   spec.description = "A simple gem to add a translation mechanic to your existing apps "
   spec.license     = "MIT"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "> 6.0"
+  spec.add_dependency "rails", '~> 6.0', '> 6.0'
 end
